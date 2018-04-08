@@ -21,7 +21,7 @@ To change **colors** and add **fields**  you will only have to modify `scripts/s
 You can easily change the colors with this object that you'll find in the Model
 
 ```js
-	colors: {
+    colors: {
       background: "#FFFFFF",
       primary: "#FFA726",
       secundary: "#2366A6",
@@ -35,7 +35,7 @@ You can easily change the colors with this object that you'll find in the Model
 To create a field you just have to create a `formData` object by calling the `form` function and then you add the html code by calling the `addForm` function.
 
 ```js
-	form: function(icon, labelName) {
+    form: function(icon, labelName) {
       var formData = {
         icon: icon,
         labelName: labelName
@@ -56,7 +56,7 @@ To create a field you just have to create a `formData` object by calling the `fo
 **Example:**
 
 ```js
-	loginForm: {
+    loginForm: {
       firstname: Controller.NewForm("account_circle", "First Name"),
       password: Controller.NewForm("fingerprint", "Password")
     },
