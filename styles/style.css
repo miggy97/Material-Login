@@ -10,16 +10,21 @@
 }
 
 .topArea {
+  position: relative;
+  width: inherit;
+  height: 4em;
   display: flex;
   align-items: center;
+  vertical-align: middle;
 }
 
 #title {
+  position: relative;
   display: inline;
 }
 
 #actionButton {
-  display: inline;
   position: absolute;
-  margin-left: 16em;
+  display: inline;
+  margin-left: 100%;
 }
